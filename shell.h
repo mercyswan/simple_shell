@@ -25,7 +25,7 @@ extern int errno;
 
 /*-----Main functions-----*/
 int shell_interactive(void);
-int shell_no_interactive(int ac, char **av);
+int shell_not_interactive(int ac, char **av);
 
 /*-----String functions-----*/
 int _strlen(char *string);
